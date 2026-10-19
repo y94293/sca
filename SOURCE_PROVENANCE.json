@@ -1,0 +1,109 @@
+{
+  "original_package": "APPGEO_Supplementary_File_S1_Final(1).zip",
+  "algorithm_version": "NCPC-SCA-CLARABEL-local-1mm-v2.0",
+  "packaging": "Active SCA numerical functions/classes retained; unused scanning, feasibility-table, alternate solver, and figure routines excluded. Module imports renamed to remove dependencies on excluded files.",
+  "source_sha256": {
+    "solver_local.py": "eebcf31975dde9100680fb7f46af939c3179e0a409cf1e2f58f4ea1340478e2d",
+    "analytic_jacobian.py": "e54600541f4269c88ac6ea7667e0cabcc0ebe89985701bce844d743ae9f97f49",
+    "search_lattice.py": "6881907a4fe98eb24d83a272f6d562b380961dde1a265a8d9c8e8d70ecd475d8",
+    "fair_engine.py": "8eb9880462a4d4740028a9b17a7ee8311e278c67b3716fedd7685d6e14b59ae7",
+    "src/tem_sca/native_sca.py": "834411334425bf09ee6d04e068bb3b99810147fc3451c28f0dd68bb1cc5a10df",
+    "src/tem_sca/physics.py": "cddb3df5e32061077a57850741fcce8a4c83f35040e251d6eb6d242a50f0b0ff",
+    "src/tem_sca/metrics.py": "6f4f16afb38da1325c65dc10567354738e705433db592f66a0dac0562977082f",
+    "inputs/search_config.json": "c9665f257072bb97b23e26e36f2002a15ff9c5e8abe61a0bb8fdbeec6e8a54c8",
+    "five_initials_results.csv": "d7ce5ff801f2e3e3ed8ba767465e46067f82c6890375111950d1121c1bbbd068"
+  },
+  "retained_numerical_symbols": [
+    {
+      "source": "search_lattice.py",
+      "symbol": "terms",
+      "source_ast_sha256": "60de5cde579ca2adfcdc85abcbeaf05072249748289d12975022472f7c9b02cd",
+      "packaged_file": "sca_objective.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "fair_engine.py",
+      "symbol": "Engine",
+      "source_ast_sha256": "f68dbd20e52c6a3f87d1fc7c74b4dcc729fb81b22d0dd731a0fdef1a6ddb5f5b",
+      "packaged_file": "sca_engine.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "solver_local.py",
+      "symbol": "box_mm",
+      "source_ast_sha256": "6a7898d1c666a664ee5ae8b493f2c057dd436d92e7f9a3b2e0e1baacb77466d1",
+      "packaged_file": "solver_local.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "solver_local.py",
+      "symbol": "local_candidates",
+      "source_ast_sha256": "886646c8a6b324d3a43d3aaa632a1c26b63e5bcdab6e8e734f33179ba91c3801",
+      "packaged_file": "solver_local.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "solver_local.py",
+      "symbol": "execute",
+      "source_ast_sha256": "a1c2a4cb27df099f8804164f4cb29954093fcacc29c09441c00111bdc17ea25b",
+      "packaged_file": "solver_local.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "solver_local.py",
+      "symbol": "solve",
+      "source_ast_sha256": "54204d0e25b128632021a1b3aedc38f0da4df89403e2081a8987a5d56835625b",
+      "packaged_file": "solver_local.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/native_sca.py",
+      "symbol": "NativeConvexStep",
+      "source_ast_sha256": "451919226b1d0ca187bc59e846d8177db8d01ad3dab4b0de91e42d259be285ad",
+      "packaged_file": "tem_sca/native_sca.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/metrics.py",
+      "symbol": "Grid",
+      "source_ast_sha256": "ae1e5034911732da575b40040f529e7153c9f026e8e187c83d3ade203a3b556e",
+      "packaged_file": "tem_sca/metrics.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/metrics.py",
+      "symbol": "threshold_intervals",
+      "source_ast_sha256": "17ba26d857aea5802a7ce46062777f298e187fe33b0e0b8f53c4f57aa136ceba",
+      "packaged_file": "tem_sca/metrics.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/physics.py",
+      "symbol": "_circle_nodes",
+      "source_ast_sha256": "73a52d665d0b66d6880edf6a08b59b8e26c78ed796087137304bdca3ba7b489e",
+      "packaged_file": "tem_sca/physics.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/physics.py",
+      "symbol": "loop_mutual",
+      "source_ast_sha256": "6cdfdd650d78851390c657a40c46d9ecac721857aa01bc03fd32284d78187d35",
+      "packaged_file": "tem_sca/physics.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/physics.py",
+      "symbol": "mutual_components",
+      "source_ast_sha256": "463533c441f590186e18f910c8274e7aa534fdf0cd86c8a7c5ab68c9ed40ed18",
+      "packaged_file": "tem_sca/physics.py",
+      "retained_ast_identical": true
+    },
+    {
+      "source": "src/tem_sca/physics.py",
+      "symbol": "mutual",
+      "source_ast_sha256": "98d0123ccb239aa00a3a8c509448d398f05c11f81c6b45783e5f458d4be921e2",
+      "packaged_file": "tem_sca/physics.py",
+      "retained_ast_identical": true
+    }
+  ]
+}

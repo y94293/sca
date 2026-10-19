@@ -1,0 +1,18 @@
+{
+  ".gitignore": "428346586034a45178c8f64b7e5966fe5249f35eccb36768b7d923d8d4a7070d",
+  "README.md": "54085087e6dd3f01376f30e2e3f2aa088cc99e76b3ad1da40e602b9c69af57aa",
+  "SOURCE_PROVENANCE.json": "6e6747b0b3ec715295637898540c4b28208d23fcda78a88d29de62caa2bcf5b4",
+  "analytic_jacobian.py": "e54600541f4269c88ac6ea7667e0cabcc0ebe89985701bce844d743ae9f97f49",
+  "config/sca_settings.json": "c9665f257072bb97b23e26e36f2002a15ff9c5e8abe61a0bb8fdbeec6e8a54c8",
+  "reference/sca_expected.csv": "baa313555fa5c567a8f30542645c3d1733761badef9bbfaf9fca48adb3461f7e",
+  "requirements.txt": "e93f68a32a1de4ef2cbdc1f2eaf9e505b0af3f72e445702b42a1bededa566b09",
+  "run_sca.py": "d7efc0f523a65d1ba12c389c4280c9160a149e38299a29dbaccab65efaa1757f",
+  "sca_engine.py": "01126d0f195464194b9e4b7a14b345256354a1d9f1852b73fb38ba7e2972360e",
+  "sca_objective.py": "08f3bb9ee925f639d08730b470f56c3976e972515ed87da0308f84ed7a5a3348",
+  "solver_local.py": "ebfd1b317bfb2fd72f769239c13940a9b829dab8ba26f21592457ffe5e9a1086",
+  "tem_sca/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tem_sca/metrics.py": "82df587c108320dfd1fa4d73568c853a7b6e08717aeb9e573ffabd8556ce21c1",
+  "tem_sca/native_sca.py": "7edca2807f6a9c03e0c52de52a1a9781a51a8318c6f5041c0c2c0263b7ed81b1",
+  "tem_sca/physics.py": "0c8a86d87ff275a8dc7ab075505c9c8a9fe1127b1c9199f11371efefa007a9c5",
+  "tests/test_reproduction.py": "cd4868f1ea8cf309f7727fb4284f5d01b98aa8bd5b65fbcab061153e179a40b5"
+}

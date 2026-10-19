@@ -1,0 +1,64 @@
+{
+  "threshold": 1e-10,
+  "lower": [
+    0.3,
+    0.2
+  ],
+  "upper": [
+    0.5,
+    1.0
+  ],
+  "x_range": [
+    0.5,
+    0.58
+  ],
+  "z_range": [
+    -0.02,
+    0.02
+  ],
+  "nx": 81,
+  "nz": 41,
+  "length_scale": 0.01,
+  "eta": 1000.0,
+  "alpha": 1.0,
+  "beta": 0.05,
+  "gamma": 0.05,
+  "absolute_smoothing": 1e-06,
+  "nphi": 64,
+  "fixed_normalization_scales": [
+    2.929049593914757,
+    477855.2726907176
+  ],
+  "version": "NCPC-SCA-CLARABEL-local-1mm-v2.0",
+  "solver": {
+    "name": "CLARABEL",
+    "interface": "Native Python sparse conic interface",
+    "version_expected": "0.11.1",
+    "max_iter": 150,
+    "tol_gap_abs": 1e-11,
+    "tol_gap_rel": 1e-11,
+    "tol_feas": 1e-11,
+    "max_threads": 1,
+    "direct_solve_method": "qdldl",
+    "verbose": false,
+    "warm_start": false
+  },
+  "local_sca": {
+    "max_iterations": 200,
+    "radius0": 0.1,
+    "radius_min": 0.00125,
+    "radius_max": 0.5,
+    "gain_tolerance": 1e-12,
+    "theta_tolerance": 1e-06,
+    "objective_tolerance": 1e-06,
+    "nominal_feasibility_during_iteration": false
+  },
+  "lattice": {
+    "step_m": 0.001,
+    "receiver_range_m": [
+      0.5,
+      0.58
+    ],
+    "nominal_threshold_H": 1e-10
+  }
+}
