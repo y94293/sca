@@ -6,19 +6,6 @@ by Tianjiao Yang, Dengke He, Guowei Zhu, and Yuxuan Zhou.
 
 Algorithm version: `NCPC-SCA-CLARABEL-local-1mm-v2.0`.
 
-## Scope
-
-This repository contains the active local SCA implementation, the signed
-mutual-inductance model, analytic parameter derivatives, the native CLARABEL
-convex subproblem, the complete SCA settings, and five SCA reference solutions.
-It reproduces the nominal optimized geometry and the five initialization cases.
-
-Figure 10, plotting scripts, grid-scan implementations, trial-and-error or other
-comparison algorithms, comparative timing records, and COMSOL models are not
-included. The spatial grid inside the SCA objective and the eight-neighbour
-engineering termination check are intrinsic parts of SCA, not a separate
-grid-scan comparison algorithm.
-
 ## Install
 
 Use Python 3.12 on Linux for the closest match to the recorded environment
@@ -110,11 +97,7 @@ inside the permitted receiver range, with the tie rules in `solver_local.py`.
 | `reference/sca_expected.csv` | Five SCA-only numerical reference solutions |
 | `SOURCE_PROVENANCE.json` | Original source hashes and retained-symbol checks |
 
-Unused comparison entry points and alternative solver paths were removed when
-extracting this repository. Retained numerical function/class bodies are
-identical to those in Supplementary File S1; module imports were adjusted to
-remove dependencies on excluded files. The extraction was checked using
-Python abstract syntax trees and fresh reproduction of all five SCA starts.
+
 
 Run the reproduction regression check with:
 
