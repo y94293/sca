@@ -44,8 +44,9 @@ The runner calculates the results rather than loading reference outputs.
 The output directory contains one JSON file per initialization and a
 `summary.json` with effective settings, environment, full SCA traces and results.
 Repeated runs are deterministic in their numerical outputs; runtime depends
-on the execution environment. This repository currently covers SCA-only reproduction; the comparative
-benchmark scripts and timing records are not yet hosted here.
+on the execution environment. The repository also provides `APPGEO_Supplementary_File_S1.zip`, which contains
+the grid-scan benchmark implementation, timing records, benchmark data and
+reproduction protocol used for the computational comparison.
 
 ## Scope of the grid-scan comparison
 
@@ -104,6 +105,7 @@ inside the permitted receiver range, with the tie rules in `solver_local.py`.
 | `tem_sca/metrics.py` | Spatial grid and signed threshold intervals |
 | `reference/sca_expected.csv` | Five SCA-only numerical reference solutions |
 | `SOURCE_PROVENANCE.json` | Original source hashes and retained-symbol checks |
+| `APPGEO_Supplementary_File_S1.zip` | Grid-scan benchmark, timing records, benchmark data and reproduction protocol |
 
 
 
