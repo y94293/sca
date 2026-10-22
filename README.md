@@ -44,8 +44,16 @@ The runner calculates the results rather than loading reference outputs.
 The output directory contains one JSON file per initialization and a
 `summary.json` with effective settings, environment, full SCA traces and results.
 Repeated runs are deterministic in their numerical outputs; runtime depends
-on the execution environment. This repository does not reproduce comparative
-timing or area-ratio figures.
+on the execution environment. This repository currently covers SCA-only reproduction; the comparative
+benchmark scripts and timing records are not yet hosted here.
+
+## Scope of the grid-scan comparison
+
+The manuscript's grid-search baseline evaluates a predefined 41 × 41 design
+lattice (1,681 candidates), with 0.005 m spacing in aC and 0.020 m spacing
+in HTR. The reported computational comparison applies to that finite-grid
+baseline; it is not evidence of a speed advantage over an exhaustive search
+at the same 1 mm resolution used for the engineering-neighbour check.
 
 ## Expected SCA solutions
 
