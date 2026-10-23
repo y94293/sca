@@ -44,17 +44,21 @@ The runner calculates the results rather than loading reference outputs.
 The output directory contains one JSON file per initialization and a
 `summary.json` with effective settings, environment, full SCA traces and results.
 Repeated runs are deterministic in their numerical outputs; runtime depends
-on the execution environment. The repository also provides `APPGEO_Supplementary_File_S1.zip`, which contains
-the grid-scan benchmark implementation, timing records, benchmark data and
-reproduction protocol used for the computational comparison.
+on the execution environment. The current same-resolution exhaustive grid-scan
+benchmark, timing records, Fig. 10 data, and reproduction protocol are provided
+in `benchmark_grid1mm/`.
 
 ## Scope of the grid-scan comparison
 
-The manuscript's grid-search baseline evaluates a predefined 41 × 41 design
-lattice (1,681 candidates), with 0.005 m spacing in aC and 0.020 m spacing
-in HTR. The reported computational comparison applies to that finite-grid
-baseline; it is not evidence of a speed advantage over an exhaustive search
-at the same 1 mm resolution used for the engineering-neighbour check.
+The revised manuscript uses an exhaustive grid scan at the same 1 mm parameter
+resolution as the discrete SCA solution. The design box contains 201 × 801 =
+161,001 parameter pairs. After nominal-feasibility screening at the 81 permitted
+receiver positions, 23,391 designs receive full-field/objective evaluation.
+Design-dependent full Tx/Cx fields and objective values are not reused between
+different candidate geometries. The exhaustive scan identifies aC = 0.422 m,
+HTR = 0.573 m and a threshold-satisfying area of 797 mm². In 20 strictly serial
+single-threaded runs, its median wall time was 585.38 s. See
+`benchmark_grid1mm/README.md` for the benchmark protocol and data.
 
 ## Expected SCA solutions
 
@@ -105,9 +109,7 @@ inside the permitted receiver range, with the tie rules in `solver_local.py`.
 | `tem_sca/metrics.py` | Spatial grid and signed threshold intervals |
 | `reference/sca_expected.csv` | Five SCA-only numerical reference solutions |
 | `SOURCE_PROVENANCE.json` | Original source hashes and retained-symbol checks |
-| `APPGEO_Supplementary_File_S1.zip` | Grid-scan benchmark, timing records, benchmark data and reproduction protocol |
-
-
+| `benchmark_grid1mm/` | Current exhaustive 1 mm grid benchmark, 20-run timing summary, Fig. 10 data, and reproduction scripts |
 
 Run the reproduction regression check with:
 
