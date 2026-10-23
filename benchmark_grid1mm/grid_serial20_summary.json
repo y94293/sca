@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "execution_mode": "strictly serial",
+  "repeats": 20,
+  "threads_per_run": 1,
+  "candidate_pairs": 161001,
+  "nominally_feasible_candidates": 23391,
+  "full_objective_evaluations": 23391,
+  "best_key_mm": [422, 573],
+  "best_aC_m": 0.422,
+  "best_H_m": 0.5730000000000001,
+  "best_J": 0.2490668148527419,
+  "best_area_mm2": 797.0000000000013,
+  "wall_seconds": {
+    "min": 565.9392410069704,
+    "q1": 577.3336412273347,
+    "median": 585.3807426653802,
+    "q3": 598.2305698823184,
+    "max": 649.3625930994749,
+    "mean": 588.9346991229802,
+    "stdev": 18.883990789043644
+  },
+  "process_cpu_seconds": {
+    "min": 565.914523319,
+    "q1": 577.2778351669998,
+    "median": 585.3577151209997,
+    "q3": 598.2029431637507,
+    "max": 649.359802896,
+    "mean": 588.90674508825,
+    "stdev": 18.903310262048976
+  },
+  "timing_note": "Twenty repeats were executed sequentially in one Python process. Static quadrature nodes were warmed before measurement. Each repeat rebuilt its spatial grid, nominal-feasibility screening state, and every design-dependent full Tx/Cx field and objective."
+}
