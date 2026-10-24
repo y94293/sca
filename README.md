@@ -2,7 +2,7 @@
 
 Reproduction code for the sequential convex approximation (SCA) calculation in
 **Zone-Decoupling Optimization for Highly Robust Non-Coplanar Positive Compensation TEM**
-by Tianjiao Yang, Dengke He, Guowei Zhu, and Yuxuan Zhou.
+by Tianjiao Yang, Dengke He, Guowei Zhu, Yuxuan Zhou and Tiankuo Yu.
 
 Algorithm version: `NCPC-SCA-CLARABEL-local-1mm-v2.0`.
 
